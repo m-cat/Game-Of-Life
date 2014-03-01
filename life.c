@@ -62,8 +62,8 @@ int main(int argc, char **argv) {
   con_init();
   getmaxyx(stdscr,con_height,con_width);
   /* Truncate messages if they can't fit in console */
-  //if (con_width < strlen(msg1))
-  //  msg1[con_width-1] = 0;
+  if (con_width < strlen(msg1))
+    msg1[con_width-1] = 0;
   if (con_width < strlen(msg2))
     msg2[con_width-1] = 0;
   /* Allocate game field */

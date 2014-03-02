@@ -1,4 +1,4 @@
-#Game-Of-Life [wikipedia](http://en.wikipedia.org/wiki/Conway's_Game_of_Life)
+#Game-Of-Life ([wikipedia](http://en.wikipedia.org/wiki/Conway's_Game_of_Life))
 
 Conway's Game of Life made in C. Has some interesting features.
 
@@ -50,4 +50,4 @@ Conway's Game of Life made in C. Has some interesting features.
 
 ./life -d0 -w -b36 -s23
 
-       This is "HighLife". Try inputting the [replicator](http://en.wikipedia.org/wiki/HighLife).
+       This is "HighLife". Try inputting the replicator (http://en.wikipedia.org/wiki/HighLife).

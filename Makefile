@@ -7,4 +7,4 @@ life : $(DEPS)
 	gcc $(DEPS) -lncurses -o $@
 
 clean :
-	rm -f *~ *# $(PROGS)
+	rm -f *~ *\# $(PROGS)

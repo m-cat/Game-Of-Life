@@ -1,5 +1,4 @@
-Game-Of-Life
-============
+#Game-Of-Life [wikipedia](http://en.wikipedia.org/wiki/Conway's_Game_of_Life)
 
 Conway's Game of Life made in C. Has some interesting features.
 
@@ -8,10 +7,14 @@ Conway's Game of Life made in C. Has some interesting features.
 ####Rules
 
 -b
-	Change the rule for how many neighbors a dead cell must have to be born (default: 2). Passing -1 makes it so that a cell is never born.
+
+	Change the rule for how many neighbors a dead cell must have to be born (default: 2). 
+	Passing -1 makes it so that a cell is never born.
 
 -s
-	Change the rule for how many neighbors a live cell must have to stay alive (default: 23). Passing -1 makes it so that a cell never stays alive.
+	
+	Change the rule for how many neighbors a live cell must have to stay alive (default: 23). 
+	Passing -1 makes it so that a cell never stays alive.
 
 ####Misc
 
@@ -47,4 +50,4 @@ Conway's Game of Life made in C. Has some interesting features.
 
 ./life -d0 -w -b36 -s23
 
-       This is "HighLife". Try inputting the replicator (http://en.wikipedia.org/wiki/HighLife).
+       This is "HighLife". Try inputting the [replicator](http://en.wikipedia.org/wiki/HighLife).

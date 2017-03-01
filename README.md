@@ -2,6 +2,8 @@
 
 Conway's Game of Life made in C. Has some interesting features.
 
+Make sure you have ncurses installed and compile with "make".
+
 ###Command Line Options
 
 ####Rules

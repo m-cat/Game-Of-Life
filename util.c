@@ -1,19 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
-#include <ncurses/ncurses.h>
+#include <ncurses.h>
 #include <time.h>
 #include "util.h"
 
 int con_init() {
   initscr();
 
-  keypad(stdscr, TRUE);  /* Allow reading arrow keys */
-  curs_set(0);           /* Make the cursor invisible */
-  noecho();              /* Suppress echoing of user input */
-  raw();                 /* Disable line buffering */
-  nodelay(stdscr, TRUE); /* Disable delay on getch() */
+  keypad(stdscr, TRUE);             /* Allow reading arrow keys */
+  curs_set(0);                      /* Make the cursor invisible */
+  noecho();                         /* Suppress echoing of user input */
+  raw();                            /* Disable line buffering */
+  nodelay(stdscr, TRUE);            /* Disable delay on getch() */
   mousemask(BUTTON1_CLICKED, NULL); /* Enable mouse events */
-  srand(time(NULL));     /* Initialize seed to rand() */
+  srand(time(NULL));                /* Initialize seed to rand() */
 
   return 0;
 }

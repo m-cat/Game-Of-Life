@@ -1,12 +1,12 @@
-#Game-Of-Life ([wikipedia](http://en.wikipedia.org/wiki/Conway's_Game_of_Life))
+# Game-Of-Life
 
-Conway's Game of Life made in C. Has some interesting features.
+[Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) made in C. Has some interesting features.
 
 Make sure you have ncurses installed and compile with "make".
 
-###Command Line Options
+### Command Line Options
 
-####Rules
+#### Rules
 
 -b
 
@@ -18,7 +18,7 @@ Make sure you have ncurses installed and compile with "make".
 	Change the rule for how many neighbors a live cell must have to stay alive (default: 23). 
 	Passing -1 makes it so that a cell never stays alive.
 
-####Misc
+#### Misc
 
 -c
 
@@ -40,7 +40,7 @@ Make sure you have ncurses installed and compile with "make".
 
         Allow wrapping around the edges (off by default).
 
-###Examples
+### Examples
 
 ./life -cO -d0 -g.01 -i50
 

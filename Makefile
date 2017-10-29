@@ -1,5 +1,5 @@
 PROGS = life
-DEPS = life.c util.c
+DEPS = src/*.c
 
 all : $(PROGS)
 
